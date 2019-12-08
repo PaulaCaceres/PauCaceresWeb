@@ -1,0 +1,79 @@
+body, footer{
+	background-color: #182026;
+}
+
+.home, .about, .work, .hci, .artists, .contact{
+	background-color: #182026;
+	height: 754px;
+}
+
+.navbar{
+	color:#F24B4B;
+	z-index: 1;
+	padding:2rem;
+}
+
+.navi{
+	padding-right:10rem;
+
+}
+/* unvisited link */
+a:link {
+ color: #F24B4B;
+ text-decoration:none;
+}
+
+/* visited link */
+a:visited {
+  color: #F24B4B;
+}
+
+/* mouse over link */
+a:hover {
+ color: #F24B4B;
+ text-decoration:none;
+}
+
+/* selected link */
+a:active {
+  color: yellow;
+  text-decoration:none;
+}
+
+
+.home h1 {
+	color:#F24B4B;
+	font-size: 5rem;
+	text-align:center;
+}
+
+.about h1, .work h1, .hci h1, .artists h1, .contact h1{
+	color: #F2AF5C;
+	font-size: 5rem;
+	text-align:center;
+}
+
+
+p {
+	color:white;
+	font-size: 1rem;
+	font-family: Arial, Helvetica, sans-serif;
+	padding:.5rem;
+	line-height: 1.8rem;
+	text-align: justify;
+}	
+
+.table {
+
+}
+
+.fas, .fab {
+	color:#F2785C;
+	font-size: 1.5rem;
+	text-decoration:none;
+}
+
+footer .fas{
+	font-size: 2rem;
+}
+
